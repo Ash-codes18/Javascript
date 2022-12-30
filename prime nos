@@ -1,0 +1,16 @@
+//Javascript program to print prime nos. upto a given point
+let n = prompt("Please enter the upper limit")
+n=Number.parseInt(n)
+for (let i = 2; i <= n; i++) {
+    for (let j = 2; j < i; j++) {
+        if (i % j == 0) {
+            break
+        }
+        else {
+            var z =i
+        }
+    }
+    console.log(z)
+    document.write(z)
+}
+
