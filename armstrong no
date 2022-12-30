@@ -1,0 +1,19 @@
+var z,e,x,d=0;
+var b=prompt("Enter a number");
+x=parseInt(b);
+while(x>0)  //Here is the mistake
+{
+e=x%10;
+x=parseInt(x/10);
+d=d+(e*e*e);
+console.log("d: "+d+" e: "+e);
+
+}
+if(parseInt(b)==d){
+
+alert("given no is amstrong number");
+}
+else {
+
+alert("given no is not an amstrong number");
+}
