@@ -1,0 +1,8 @@
+console.log(document.body)
+console.log(document.title)
+console.log(document.documentElement)
+console.log(document.head)
+console.log(document.getElementById)
+console.log(document.getElementsByClassName)
+console.log(document.getElementsByName)
+console.log(document.getElementsByTagName)
